@@ -98,7 +98,7 @@ in the previous step.
 
 ```js
 const SimpleERC721 = await ethers.getContractFactory('SimpleERC721');
-const contract = await SimpleERC721.attach('<contract address>');
+const contract = await SimpleERC721.attach('0x5FbDB2315678afecb367f032d93F642f64180aa3');
 await contract.newItem('dummy');
 ```
 
